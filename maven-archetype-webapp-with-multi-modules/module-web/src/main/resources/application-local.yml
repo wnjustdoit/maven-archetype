@@ -1,0 +1,10 @@
+server:
+  port: @server.port@
+
+debug: true
+# trace: true
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
