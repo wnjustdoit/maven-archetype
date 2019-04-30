@@ -19,14 +19,10 @@
     > 1. cd YOUR_WORKSPACE
     > 2. mvn archetype:generate -DarchetypeGroupId=com.caiya -DarchetypeArtifactId=maven-archetype-simple-archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_PROJECT_ARTIFACT_ID -Dversion=1.0.0-SNAPSHOT -DarchetypeCatalog=local -X
 
-#### 其他说明
-###### 功能
-* 构建标准 Java 应用，；
-* 
-* 构建多模块的 Web 应用，
-
 #### 参考
 > * https://maven.apache.org/archetype/maven-archetype-plugin/examples/create-multi-module-project.html
 > * https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/#boot-features-external-config-profile-specific-properties
+* 工程的模块化
+![](/assets/模块化.png)
 
 
