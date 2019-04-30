@@ -1,13 +1,16 @@
 ## 自定义Maven脚手架，快速构建项目
 #### 模块说明
 * maven-archetype-simple
-> 构建标准Java应用。
+> - 构建标准 Java 应用(简单单体应用)；
+> - 可在运行命令中指定不同环境的参数，如：java -jar ROOT.jar --server.port=8088。
 
 * maven-archetype-webapp
-> 构建普通Java Web应用，使用Spring Boot做web框架。
+> - 构建普通 Java Web 应用（MVC），使用 Spring Boot 做 Web 框架；
+> - 支持根据 Maven & Spring Profiles 适配不同的环境参数。
 
 * maven-archetype-webapp-with-multi-modules
-> 构建模块化的Java Web应用，使用Spring Boot做web框架。
+> - 构建模块化的 Java Web 应用（MVC & 模块化），使用 Spring Boot 做 Web 框架，可选用 Spring Cloud 做 RPC 框架；
+> - 支持根据 Maven & Spring Profiles 适配不同的环境参数。
 
 #### 使用方法
 1. git clone 当前工程；
@@ -16,6 +19,14 @@
     > 1. cd YOUR_WORKSPACE
     > 2. mvn archetype:generate -DarchetypeGroupId=com.caiya -DarchetypeArtifactId=maven-archetype-simple-archetype -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=YOUR_PROJECT_GROUP_ID -DartifactId=YOUR_PROJECT_ARTIFACT_ID -Dversion=1.0.0-SNAPSHOT -DarchetypeCatalog=local -X
 
+#### 其他说明
+###### 功能
+* 构建标准 Java 应用，；
+* 
+* 构建多模块的 Web 应用，
+
 #### 参考
 > * https://maven.apache.org/archetype/maven-archetype-plugin/examples/create-multi-module-project.html
+> * https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/#boot-features-external-config-profile-specific-properties
+
 
