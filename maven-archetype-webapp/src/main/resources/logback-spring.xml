@@ -21,7 +21,7 @@
     <appender name="FILE"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--See also http://logback.qos.ch/manual/appenders.html#RollingFileAppender -->
-        <File>../logs/${LOG_FILE_NAME}.log</File>
+        <File>logs/${LOG_FILE_NAME}.log</File>
         <encoder>
             <pattern>${FILE_PATTERN}</pattern>
         </encoder>
