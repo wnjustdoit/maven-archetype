@@ -362,7 +362,7 @@
             </build>
         </profile>
         <profile>
-            <id>dev</id>
+            <id>pre</id>
             <build>
                 <filters>
                     <filter>pre_config.properties</filter>

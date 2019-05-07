@@ -1,8 +1,8 @@
-package com.caiya;
-
-import static org.junit.Assert.assertTrue;
+package com.caiya.service;
 
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit test for simple App.

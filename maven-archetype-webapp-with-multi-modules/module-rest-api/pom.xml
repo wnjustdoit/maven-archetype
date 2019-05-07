@@ -4,9 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-      <groupId>com.caiya</groupId>
+    <groupId>com.caiya</groupId>
     <artifactId>module-rest-api</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
 
     <name>module-rest-api</name>
     <description>module rest api</description>
@@ -42,12 +44,12 @@
         <repository>
             <id>releases</id>
             <name>local release repository</name>
-            <url>http://maven.centralxxx.com/repository/maven-releases/</url>
+            <url>http://local_nexus_domain/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
             <name>local snapshot repository</name>
-            <url>http://maven.centralxxx.com/repository/maven-snapshots/</url>
+            <url>http://local_nexus_domain/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

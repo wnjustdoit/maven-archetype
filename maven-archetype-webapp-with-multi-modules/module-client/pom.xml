@@ -24,6 +24,7 @@
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-httpclient</artifactId>
         </dependency>
+        <!-- 二方jar包 -->
 
     </dependencies>
 

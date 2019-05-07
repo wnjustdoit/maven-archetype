@@ -3,10 +3,13 @@
 <configuration>
 
     <typeAliases>
+        <!--<typeAlias alias="User" type="com.caiya.dal.domain.User" />-->
 
     </typeAliases>
 
     <mappers>
+        <!--<mapper resource="mybatis/mapper/UserMapper.xml" />-->
+
 
     </mappers>
 
