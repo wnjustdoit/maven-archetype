@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "the application is starting..."
+echo "The spring-boot-application is starting..."
 # -P指定环境
 mvn clean install -Plocal
 cd module-web/ && mvn spring-boot:run

@@ -1,8 +1,8 @@
-## 自定义Maven脚手架，快速构建项目
+## 自定义 Maven 脚手架，快速构建项目
 #### 模块说明
 * 三个模块
 > - 相同点：都使用 maven 构建项目
-> - 不同点：注意构建单模块和多模块的 web 应用时，由于 web 模块相对位置的不同，logback、*_config.properties等文件的相对位置的差异
+> - 不同点：注意构建单模块和多模块的 web 应用时，由于 web 模块相对位置的不同，logback、*_config.properties等文件在配置中相对位置的差异
 
 * maven-archetype-simple
 > - 构建标准 Java 应用(简单单体应用)；
@@ -13,7 +13,7 @@
 > - 支持根据 Maven & Spring Profiles 适配不同的环境参数。
 
 * maven-archetype-webapp-with-multi-modules
-> - 构建模块化的 Java Web 应用（MVC & 模块化），使用 Spring Boot 做 Web 框架，可选用 Spring Cloud 做 RPC 框架；
+> - 构建模块化的 Java Web 应用（MVC & 模块化），使用 Spring Boot 做 Web 框架，可选用 Spring Cloud 做 RPC 框架（对应于新增模块 module-client & module-rest-api）；
 > - 支持根据 Maven & Spring Profiles 适配不同的环境参数。
 
 #### 使用方法

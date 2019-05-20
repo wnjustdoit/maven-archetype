@@ -18,11 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.github.openfeign</groupId>
-            <artifactId>feign-httpclient</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <!-- 二方jar包 -->
 
