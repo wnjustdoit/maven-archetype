@@ -26,6 +26,7 @@
 #### 参考
 > * https://maven.apache.org/archetype/maven-archetype-plugin/examples/create-multi-module-project.html
 > * https://docs.spring.io/spring-boot/docs/2.0.4.RELEASE/reference/htmlsingle/#boot-features-external-config-profile-specific-properties
+> * Spring Initializr 在线快速生成项目：https://start.spring.io/
 * 工程的模块化（用 Spring Cloud 作为 RPC 框架时）
 ![](assets/模块化.png)
 
