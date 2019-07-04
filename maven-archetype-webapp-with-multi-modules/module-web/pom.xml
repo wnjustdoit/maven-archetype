@@ -71,6 +71,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>${start-class}</mainClass>
+                    <outputDirectory>${project.basedir}/../web/target</outputDirectory>
                 </configuration>
                 <executions>
                     <execution>

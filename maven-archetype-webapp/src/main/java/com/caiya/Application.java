@@ -5,12 +5,12 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 /**
- * 应用启动入口
+ * 应用启动入口.
  *
  * @author wangnan
  * @since 1.0
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.caiya")
 public class Application extends SpringBootServletInitializer {
 
     @Override
