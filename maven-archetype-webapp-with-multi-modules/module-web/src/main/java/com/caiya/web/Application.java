@@ -14,7 +14,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  * @since 1.0
  */
 @SpringBootApplication(scanBasePackages = "com.caiya", exclude = {DataSourceAutoConfiguration.class, DruidDataSourceAutoConfigure.class})
-////@EnableEurekaClient
+//@EnableEurekaClient
 //@EnableFeignClients(basePackages = "com.caiya")
 public class Application extends SpringBootServletInitializer {
 
