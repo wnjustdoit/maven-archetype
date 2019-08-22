@@ -39,14 +39,14 @@
 
     <logger name="@log.package.project@" level="@log.level.project@" additivity="false">
         <appender-ref ref="FILE"/>
-        <springProfile name="dev,local">
+        <springProfile name="local,dev,test">
             <appender-ref ref="CONSOLE"/>
         </springProfile>
     </logger>
 
     <root level="@log.level.root@">
         <appender-ref ref="FILE"/>
-        <springProfile name="dev,local">
+        <springProfile name="local,dev,test">
             <appender-ref ref="CONSOLE"/>
         </springProfile>
     </root>

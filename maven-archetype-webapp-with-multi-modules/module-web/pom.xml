@@ -138,6 +138,14 @@
             </build>
         </profile>
         <profile>
+            <id>test</id>
+            <build>
+                <filters>
+                    <filter>../test_config.properties</filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
             <id>pre</id>
             <build>
                 <filters>

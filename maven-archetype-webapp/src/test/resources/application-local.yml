@@ -3,8 +3,17 @@ server:
 
 debug: true
 # trace: true
+logging:
+  level:
+    root: @log.level.root@
 
 spring:
   output:
     ansi:
-      enabled: ALWAYS
+      enabled: always
+  thymeleaf:
+    cache: false
+
+eureka:
+  client:
+    registerWithEureka: false
